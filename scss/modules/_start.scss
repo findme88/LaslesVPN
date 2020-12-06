@@ -1,0 +1,40 @@
+.start {
+  margin-top: 100px;
+}
+
+.info {
+  &__title {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 70px;
+
+    &_strong {
+      font-weight: 700;
+    }
+  }
+
+  &__subtitle {
+    line-height: 30px;
+    color: #4f5665;
+    margin-bottom: 50px;
+    &_strong {
+      font-weight: 500;
+    }
+  }
+
+  &__button {
+    width: 250px;
+    height: 60px;
+    background: #f53838;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.5s;
+
+    &:hover {
+      color: #83033f;
+      box-shadow: 10px 11px 15px rgba(241, 56, 56, 0.3);
+    }
+  }
+}

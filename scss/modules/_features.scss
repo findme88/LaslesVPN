@@ -1,0 +1,40 @@
+.features {
+  margin-top: 95px;
+
+  &__title {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  &__subtitle {
+    margin-top: 20px;
+    line-height: 30px;
+    color: #4F5665;
+  }
+
+  &__advantages {
+      margin-top: 20px;
+
+      &_item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+      }
+      
+
+      &_icon {
+          width: 22px;
+          height: 24px;
+          margin-right: 12px;
+      }
+
+      &_text {
+        font-size: 14px;
+        line-height: 30px;
+        color: #4F5665;
+      }
+  }
+
+}

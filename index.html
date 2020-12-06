@@ -10,7 +10,7 @@
 
     <link rel="icon" href="images/favicon.png" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,7 +25,9 @@
             <svg class="logo__icon">
               <use xlink:href="images/icons-sprite.svg#logo"></use>
             </svg>
-            <p class="logo__text">LaslesVPN</p>
+            <p class="logo__text">
+              Lasles<strong class="logo__text_strong">VPN</strong>
+            </p>
           </a>
           <ul class="menu">
             <li class="menu__item">
@@ -45,8 +47,8 @@
             </li>
           </ul>
           <div class="sign">
-            <a href="#" class="sign__title">Sign In</a>
-            <a href="#" class="sign__title">Sing Up</a>
+            <a href="#" class="sign__title_in">Sign In</a>
+            <a href="#" class="sign__title_up">Sing Up</a>
           </div>
         </nav>
       </div>
@@ -56,7 +58,7 @@
     <!-- Main -->
     <main class="main">
       <div class="container">
-		  <!-- Start -->
+        <!-- Start -->
         <section class="start">
           <div class="row">
             <div class="col-6 info">
@@ -75,43 +77,94 @@
               <img src="/images/info_img.png" alt="" class="info__img" />
             </div>
           </div>
-		</section>
-		<!-- Start -->
+        </section>
+        <!-- Start -->
 
-		<!-- About -->
-        <section class="about">
-          <div class="row">
-            <div class="col-4 row">
-              <svg class="icon">
-                <use xlink:href="images/icons-sprite.svg#users"></use>
-              </svg>
-              <div class="about__info">
-                <p class="about__info_caption">90+</p>
-                <p class="about__info_name">Users</p>
-              </div>
-            </div>
-            <div class="col-4 row">
-              <svg class="about__icon">
-                <use xlink:href="images/icons-sprite.svg#users"></use>
-              </svg>
-              <div class="about__info">
-                <p class="about__info_caption">90+</p>
-                <p class="about__info_name">Users</p>
-              </div>
-            </div>
-            <div class="col-4 row">
-              <svg class="icon">
-                <use xlink:href="images/icons-sprite.svg#users"></use>
-              </svg>
-              <div class="about__info">
-                <p class="about__info_caption">90+</p>
-                <p class="about__info_name">Users</p>
-              </div>
+        <!-- About -->
+        <section class="about justify-content-between">
+          <div class="col-4 row justify-content-center about__block">
+            <svg class="about__icon">
+              <use xlink:href="images/icons-sprite.svg#users"></use>
+            </svg>
+            <div class="about__info">
+              <p class="about__info_caption">90+</p>
+              <p class="about__info_item">Users</p>
             </div>
           </div>
-		</section>
-		<!-- About -->
-		
+          <div class="col-4 row justify-content-center about__line">
+            <svg class="about__icon">
+              <use xlink:href="images/icons-sprite.svg#location"></use>
+            </svg>
+            <div class="about__info">
+              <p class="about__info_caption">30+</p>
+              <p class="about__info_item">Locations</p>
+            </div>
+          </div>
+          <div class="col-4 row justify-content-center">
+            <svg class="about__icon">
+              <use xlink:href="images/icons-sprite.svg#server"></use>
+            </svg>
+            <div class="about__info">
+              <p class="about__info_caption">50+</p>
+              <p class="about__info_item">Servers</p>
+            </div>
+          </div>
+        </section>
+        <!-- About -->
+
+        <!-- Features -->
+        <section class="features">
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="/images/features_img.png"
+                alt=""
+                class="features__img"
+              />
+            </div>
+            <div class="col-6">
+              <h2 class="features__title">
+                We Provide Many Features You Can Use
+              </h2>
+              <h3 class="features__subtitle">
+                You can explore the features that we provide with fun and have
+                their own functions each feature.
+              </h3>
+              <ul class="features__advantages">
+                <li class="features__advantages_item">
+                  <svg class="features__advantages_icon">
+                    <use xlink:href="images/icons-sprite.svg#selected"></use>
+                  </svg>
+                  <p class="features__advantages_text">
+                    Powerfull online protection.
+                  </p>
+                </li>
+                <li class="features__advantages_item">
+                  <svg class="features__advantages_icon">
+                    <use xlink:href="images/icons-sprite.svg#selected"></use>
+                  </svg>
+                  <p class="features__advantages_text">
+                    Internet without borders.
+                  </p>
+                </li>
+                <li class="features__advantages_item">
+                  <svg class="features__advantages_icon">
+                    <use xlink:href="images/icons-sprite.svg#selected"></use>
+                  </svg>
+                  <p class="features__advantages_text">Supercharged VPN</p>
+                </li>
+                <li class="features__advantages_item">
+                  <svg class="features__advantages_icon">
+                    <use xlink:href="images/icons-sprite.svg#selected"></use>
+                  </svg>
+                  <p class="features__advantages_text">
+                    No specific time limits.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   </body>
