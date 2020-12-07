@@ -1,6 +1,10 @@
 .features {
   margin-top: 95px;
 
+  &__content {
+    padding-left: 130px;
+  }
+
   &__title {
     margin-top: 40px;
     font-weight: 500;
@@ -11,30 +15,28 @@
   &__subtitle {
     margin-top: 20px;
     line-height: 30px;
-    color: #4F5665;
+    color: $grey;
   }
 
   &__advantages {
-      margin-top: 20px;
+    margin-top: 20px;
 
-      &_item {
-          display: flex;
-          align-items: center;
-          margin-bottom: 15px;
-      }
-      
+    &_item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
 
-      &_icon {
-          width: 22px;
-          height: 24px;
-          margin-right: 12px;
-      }
+    &_icon {
+      width: 22px;
+      height: 24px;
+      margin-right: 12px;
+    }
 
-      &_text {
-        font-size: 14px;
-        line-height: 30px;
-        color: #4F5665;
-      }
+    &_text {
+      font-size: 14px;
+      line-height: 30px;
+      color: $grey;
+    }
   }
-
 }

@@ -12,7 +12,7 @@
   align-items: center;
 
   &__icon {
-    fill: #f53838;
+    fill: $red;
     height: 35px;
     width: 35px;
     margin-right: 10px;
@@ -30,13 +30,14 @@
 
 .menu {
   display: flex;
-  color: #4f5665;
+  color: $grey;
 
   &__item {
     margin-right: 40px;
+    transition: 0.5s;
 
-    :hover {
-      color: #83033f;
+    &:hover {
+      color: $red;
     }
   }
 }
@@ -46,19 +47,26 @@
   display: flex;
   align-items: center;
 
-
   &__title_in {
-   margin-right: 75px;
+    margin-right: 75px;
+    transition: 0.5s;
 
-   :hover {
-    color: #F53855;
-   }
+    &:hover {
+      color: $red;
+    }
   }
 
   &__title_up {
-    border: 1px solid #F53855;
-    color: #F53855;
+    border: 1px solid $red;
+    color: $red;
     border-radius: 50px;
     padding: 13px 45px;
+    transition: 0.5s;
+
+      &:hover {
+        background: $red;
+        color: $white;
+      }
+    }
   }
-}
+

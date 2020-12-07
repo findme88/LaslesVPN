@@ -26,10 +26,10 @@
   &__button {
     width: 250px;
     height: 60px;
-    background: #f53838;
+    background: $red;
     border-radius: 10px;
     font-weight: 700;
-    color: #ffffff;
+    color: $white;
     transition: 0.5s;
 
     &:hover {

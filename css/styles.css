@@ -122,7 +122,7 @@ a {
 }
 
 .logo__icon {
-  fill: #f53838;
+  fill: #F53838;
   height: 35px;
   width: 35px;
   margin-right: 10px;
@@ -141,15 +141,17 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #4f5665;
+  color: #4F5665;
 }
 
 .menu__item {
   margin-right: 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.menu__item :hover {
-  color: #83033f;
+.menu__item:hover {
+  color: #F53838;
 }
 
 .sign {
@@ -164,17 +166,26 @@ a {
 
 .sign__title_in {
   margin-right: 75px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.sign__title_in :hover {
-  color: #F53855;
+.sign__title_in:hover {
+  color: #F53838;
 }
 
 .sign__title_up {
-  border: 1px solid #F53855;
-  color: #F53855;
+  border: 1px solid #F53838;
+  color: #F53838;
   border-radius: 50px;
   padding: 13px 45px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sign__title_up:hover {
+  background: #F53838;
+  color: #ffffff;
 }
 
 .start {
@@ -205,7 +216,7 @@ a {
 .info__button {
   width: 250px;
   height: 60px;
-  background: #f53838;
+  background: #F53838;
   border-radius: 10px;
   font-weight: 700;
   color: #ffffff;
@@ -249,13 +260,13 @@ a {
 
 .about__info_item {
   font-size: 20px;
-  color: #4f5665;
+  color: #4F5665;
 }
 
 .about__line {
   height: 125px;
-  border-left: 2px solid #EEEFF2;
-  border-right: 2px solid #EEEFF2;
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -263,6 +274,10 @@ a {
 
 .features {
   margin-top: 95px;
+}
+
+.features__content {
+  padding-left: 130px;
 }
 
 .features__title {
@@ -316,7 +331,7 @@ a {
 }
 
 .plan__subtitle {
-  color: #4f5665;
+  color: #4F5665;
   line-height: 30px;
   margin-top: 20px;
 }
@@ -346,6 +361,8 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .plan__blocks_item:hover {
@@ -401,16 +418,18 @@ a {
 .plan__price_button {
   width: 180px;
   height: 45px;
-  border: 2px solid #f53838;
+  border: 2px solid #F53838;
   border-radius: 50px;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   font-weight: bold;
   color: #F53838;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .plan__price_button:hover {
   background: #F53838;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /*# sourceMappingURL=styles.css.map */
