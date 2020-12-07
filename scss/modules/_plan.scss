@@ -1,0 +1,99 @@
+.plan {
+  margin-top: 200px;
+  text-align: center;
+
+  &__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  &__subtitle {
+    color: #4f5665;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  &__blocks {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    &_item {
+        min-width: 330px;
+        min-height: 760px;
+      background: #ffffff;
+      padding: 50px 75px;
+      border: 2px solid #dddddd;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      
+
+      &:hover {
+        border: 2px solid #F53838;
+        box-sizing: border-box;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    &_item {
+      display: flex;
+      align-items: center;
+    }
+
+    &_icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 25px;
+    }
+
+    &_text {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+
+  &__price {
+position: absolute;
+bottom: 50px;
+    &_value{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    bottom: 10px;
+}
+  
+
+  &_button {
+    width: 180px;
+    height: 45px;
+    border: 2px solid #f53838;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-weight: bold;
+    color: #F53838;
+
+    &:hover {
+        background: #F53838;
+        color: #FFFFFF;
+    }
+
+   
+  }
+}}
