@@ -1,0 +1,15 @@
+.network {
+  margin-top: 150px;
+  text-align: center;
+  
+  &__map {
+    margin-top: 150px;
+  }
+  
+  &__sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+}

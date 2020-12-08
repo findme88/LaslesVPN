@@ -1,0 +1,105 @@
+.reviews {
+  margin-top: 120px;
+  text-align: center;
+
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+
+  &__block {
+    background: $white;
+    max-width: 350px;
+    min-height: 290px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 30px 35px;
+    text-align: left;
+
+    &:hover {
+      border: 2px solid $red;
+      cursor: pointer;
+    }
+
+    &_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &_text {
+      line-height: 30px;
+      margin-top: 20px;
+    }
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+
+    &_info {
+      margin-left: 20px;
+    }
+
+    &_name {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    &_location {
+      font-size: 14px;
+      color: $grey;
+    }
+  }
+
+  &__rating {
+    display: flex;
+
+    &_icon {
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+    }
+  }
+
+  &__arrows {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+
+    &_left {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+
+    &_right {
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-slide{
+  overflow: visible;
+ }
+// /* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+

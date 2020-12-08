@@ -1,0 +1,47 @@
+.footer {
+  background: #e7e7e7;
+  margin-top: -115px;
+
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 185px;
+  }
+
+  &__socials {
+    margin-left: -20px;
+
+    &_icon {
+      width: 52px;
+      height: 40px;
+      margin-top: 30px;
+    }
+  }
+
+  &__copyright {
+    color: #afb5c0;
+    margin-top: 30px;
+  }
+
+  &__menu {
+    margin-bottom: 100px;
+
+    &_title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+
+    &_item {
+      line-height: 30px;
+      color: $grey;
+      margin-bottom: 10px;
+      transition: 0.4s;
+
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}

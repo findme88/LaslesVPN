@@ -1,21 +1,14 @@
-.start {
-  margin-top: 100px;
-}
+.subscribe {
+  background: $white;
+  min-height: 233px;
+  padding: 58px 70px;
+  margin-top: 65px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-.info {
-  &__title {
-    font-size: 50px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    line-height: 70px;
-
-    &_strong {
-      font-weight: 700;
-    }
-  }
-
-
-
+  
   &__button {
     width: 250px;
     height: 60px;
@@ -24,7 +17,6 @@
     font-weight: 700;
     color: $white;
     transition: 0.5s;
-    margin-top: 50px;
 
     &:hover {
       color: #83033f;
